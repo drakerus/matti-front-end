@@ -1,0 +1,157 @@
+/*	--------------------------------------------------
+	Reveal Modals
+	-------------------------------------------------- */
+		
+	.reveal-modal-bg { 
+		position: fixed; 
+		height: 100%;
+		width: 100%;
+		background: url(../images/fancy_bg.png);
+		z-index: 2000;
+		display: none;
+		top: 0;
+		left: 0; 
+		}
+	
+	.reveal-modal {
+		position:absolute;
+		z-index:2001;
+		visibility:hidden;
+		top: 200px; 
+		left: 50%;
+		margin-top:0px;
+		margin-left:-457px;
+		width: 914px;
+		text-align:left;
+		padding:0px;
+			-moz-box-shadow:3px 3px 8px #5c5c5c;
+			-webkit-box-shadow:3px 3px 8px #5c5c5c;
+			-khtml-box-shadow:3px 3px 8px #5c5c5c;
+			box-shadow:3px 3px 8px #5c5c5c;
+
+			-moz-border-radius: 6px;
+			-webkit-border-radius: 6px;
+			-khtml-border-radius: 6px;
+			border-radius: 6px;
+		background:#fff;
+		}
+		
+	.reveal-modal.small 		{ width: 200px; margin-left: -140px;}
+	.reveal-modal.medium 		{ width: 400px; margin-left: -240px;}
+	.reveal-modal.large 		{ width: 600px; margin-left: -340px;}
+	.reveal-modal.xlarge 		{ width: 800px; margin-left: -440px;}
+	
+	.reveal-modal .close-reveal-modal {
+		display:none;
+		font-size: 22px;
+		line-height: .5;
+		position: absolute;
+		top: 8px;
+		right: 11px;
+		color: #aaa;
+		text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+		font-weight: bold;
+		cursor: pointer;
+		} 
+	/*
+		
+	NOTES
+	
+	Close button entity is &#215;
+	
+	Example markup
+	
+	<div id="myModal" class="reveal-modal">
+		<h2>Awesome. I have it.</h2>
+		<p class="lead">Your couch.  I it's mine.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices aliquet placerat. Duis pulvinar orci et nisi euismod vitae tempus lorem consectetur. Duis at magna quis turpis mattis venenatis eget id diam. </p>
+		<a class="close-reveal-modal">&#215;</a>
+	</div>
+	
+	*/
+
+.h_line {
+	overflow:hidden;
+	height:33px;
+	color:#fff;
+	font-size:18px;
+	line-height:32px;
+	text-shadow:#195700 -1px 1px 1px;
+	text-align:center;
+	padding:11px 0px;
+		-moz-border-radius: 6px 6px 0px 0px;
+		-webkit-border-radius: 6px 6px 0px 0px;
+		-khtml-border-radius: 6px 6px 0px 0px;
+		border-radius: 6px 6px 0px 0px;
+	background:#5c8d15 url(../images/h_line_bg.png) repeat-y center top;
+	}
+.f_line {
+	overflow:hidden;
+	height:33px;
+	color:#474747;
+	font-size:18px;
+	line-height:32px;
+	text-shadow:#fff 1px 1px 1px;
+	text-align:center;
+	padding:11px 0px;
+		-moz-border-radius: 0px 0px 6px 6px;
+		-webkit-border-radius: 0px 0px 6px 6px;
+		-khtml-border-radius: 0px 0px 6px 6px;
+		border-radius: 0px 0px 6px 6px;
+	border-top:solid 1px #cccccc;
+	background:#d9d9d9 url(../images/f_line_bg.png) repeat-y center top;
+	}
+	.f_line span {
+		position:relative;
+		top:-9px;
+		}
+	.f_line span,
+	.f_line a {
+		margin:0px 6px;
+		}
+.modal_bl {
+	border-left:solid 1px #b3b3b3;
+	border-right:solid 1px #b3b3b3;
+	}
+	.modal_bl td {
+		width:50%;
+		text-align:left;
+		vertical-align:top;
+		padding:26px 0px;
+		}
+	.modal_bl form {
+		display:block;
+		padding:0px 37px;
+		}
+	.modal_bl h3 {
+		color:#393939;
+		margin-bottom:4px;
+		}
+.login_bl {
+	font-size:14px;
+	line-height:16px;
+	background:url(../images/modal_line_l.png) repeat-y right top;
+	}
+.reg_bl {
+	border-left:solid 1px #ededed;
+	background:url(../images/modal_line.png) no-repeat left center;
+	}
+	.reg_bl .code {
+		position:relative;
+		padding:0px 0px 4px 133px;
+		}
+	.reg_bl .code img {
+		position:absolute;
+		top:0px;
+		left:0px;
+		max-width:130px;
+		}
+
+.reg_inf {
+	color:#2a2a2a;
+	font-size:18px;
+	line-height:22px;
+	}
+	.reg_inf p {
+		padding-bottom:20px;
+		}

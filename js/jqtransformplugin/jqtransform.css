@@ -1,0 +1,350 @@
+form.jqtransformdone label {
+	line-height:20px;
+	padding-left:4px;
+	}
+
+/* -------------
+ * Buttons
+ * ------------- */
+
+button.jqTransformButton {
+	position:relative;
+	cursor:pointer;
+	overflow:visible;
+	height:27px;
+	padding:0px 1px 0px 0px;
+	margin:1px 4px 1px 0px;
+	border:none;
+	background:none;
+	}
+	button.jqTransformButton span {
+		float:left;
+		overflow:visible;
+		display:block;
+		height:26px;
+		padding:0px 9px 0px 0px;
+		margin:0px;
+		background:transparent url(img/btn_right2.png) no-repeat right 0px;
+		}
+	button.jqTransformButton span span {
+		height:15px;
+		color:#660000;
+		font:12px PT Sans, Arial;
+		line-height:14px;
+		text-decoration: none;
+		white-space:nowrap;
+		text-align:center;
+		padding:5px 4px 6px 13px;
+		background:transparent url(img/btn_left2.png) no-repeat left top;
+		}
+
+button.jqTransformReset {
+	position:relative;
+	cursor:pointer;
+	overflow:visible;
+	height:27px;
+	padding:0px;
+	margin:1px 1px 1px 0px;
+	border:none;
+	background:none;
+	}
+	button.jqTransformReset span {
+		float:left;
+		overflow:visible;
+		display:block;
+		height:26px;
+		padding:0px 9px 0px 0px;
+		margin:0px;
+		background:transparent url(img/btn_right3.png) no-repeat right 0px;
+		}
+	button.jqTransformReset span span {
+		height:15px;
+		color:#505050;
+		font:12px PT Sans, Arial;
+		line-height:14px;
+		text-decoration: none;
+		white-space:nowrap;
+		text-align:center;
+		padding:5px 4px 6px 13px;
+		background:transparent url(img/btn_left3.png) no-repeat left top;
+		}
+
+.opros_bl button.jqTransformButton {
+	position:relative;
+	cursor:pointer;
+	overflow:visible;
+	height:32px;
+	padding:0px 1px 0px 0px;
+	margin:1px 4px 1px 0px;
+	border:none;
+	background:none;
+	}
+	.opros_bl button.jqTransformButton span {
+		float:left;
+		overflow:visible;
+		display:block;
+		height:31px;
+		padding:0px 9px 0px 0px;
+		margin:0px;
+		background:transparent url(img/btn_right.png) no-repeat right 0px;
+		}
+	.opros_bl button.jqTransformButton span span {
+		height:16px;
+		color:#505050;
+		font:15px Arial;
+		line-height:16px;
+		text-decoration: none;
+		white-space:nowrap;
+		text-align:center;
+		padding:7px 0px 8px 11px;
+		background:transparent url(img/btn_left.png) no-repeat left top;
+		}
+
+.login_bl button.jqTransformButton {
+	position:relative;
+	cursor:pointer;
+	overflow:visible;
+	height:27px;
+	padding:0px;
+	margin:1px 18px 1px 0px;
+	border:none;
+	background:none;
+	}
+	.login_bl button.jqTransformButton span {
+		float:left;
+		overflow:visible;
+		display:block;
+		height:26px;
+		padding:0px 9px 0px 0px;
+		margin:0px;
+		background:transparent url(img/btn_right3.png) no-repeat right 0px;
+		}
+	.login_bl button.jqTransformButton span span {
+		height:17px;
+		color:#7b7b7b;
+		font:14px PT Sans, Arial;
+		line-height:16px;
+		text-decoration: none;
+		white-space:nowrap;
+		text-align:center;
+		padding:4px 8px 5px 17px;
+		background:transparent url(img/btn_left3.png) no-repeat left top;
+		}
+
+.reg_bl button.jqTransformButton {
+	float:right;
+	margin:1px 0px;
+	}
+
+/* -------------
+ * Inputs [text, password]
+ * ------------- */
+.jqTransformInputWrapper {
+	position:relative;
+	z-index:9;
+	overflow:hidden;
+	max-width:600px;
+	font-size:1px;
+	height:43px;
+	padding:0px 0px 0px 16px;
+	margin:0px 0px 14px 0px;
+	background:transparent url(img/input_text.png) no-repeat left top;
+	}
+	.jqTransformInputInner {
+		overflow:hidden;
+		height:43px;
+		padding:0px 16px 0px 0px;
+		margin:0px;
+		background:transparent url(img/input_text.png) no-repeat right -45px;
+		}
+	.jqTransformInputInner div {
+		height:43px;
+		background:transparent url(img/input_text.png) repeat-x left -90px;
+		}
+	.jqTransformInputInner div div {
+		position:relative;
+		z-index:20;
+		padding:0px 0px !important;
+		background:none;
+		}
+	.jqTransformInputWrapper span {
+		position:absolute;
+		top:0px;
+		left:0px;
+		z-index:10;
+		overflow:hidden;
+		width:100%;
+		height:22px;
+		color:#9e9e9e;
+		font:20px PT Sans, Arial;
+		line-height:22px;
+		white-space:nowrap;
+		text-indent:16px;
+		padding:10px 0px 11px 0px;
+		}
+	.jqTransformInputInner input {
+		float:left;
+		display:block;
+		width:100%;
+		height:23px;
+		color:#9e9e9e;	
+		font:20px PT Sans, Arial;
+		line-height:22px;
+		vertical-align:middle;
+		padding:10px 2px 10px 0px;
+		border:none;
+		background:none;
+		}
+
+.jqTransformInputWrapper_disabled input {
+	color:#6d6d6d;
+	}
+
+/* -------------
+ * Textarea
+ * ------------- */
+.t_area {
+	max-width:608px;
+	padding-bottom:9px;
+	}
+	.t_area div {
+		padding:0px;
+		border:solid 1px #cccccc;
+		background:#fff;
+		}
+	.t_area div div {
+		padding:5px 8px 5px 8px;
+		border:none;
+		background:transparent;
+		}
+	.t_area textarea {
+		overflow:hidden;
+		width:100%;
+		height:116px;
+		color:#000;	
+		font:12px Arial;
+		border:none;
+		background:none;
+		}
+
+
+/* -------------
+ * Radios
+ * ------------- */
+.jqTransformRadioWrapper {
+	float:left;
+	display:block;
+	margin:0px 0px 0px 0px;
+	}
+.jqTransformRadio {
+	display:block;/*display: -moz-inline-block;*/
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	background: transparent url(img/radio.png) no-repeat center top;
+	}
+
+
+/* -------------
+ * Checkboxes
+ * ------------- */
+
+span.jqTransformCheckboxWrapper {
+	float:left;
+	display:block;
+	margin:4px 0px 3px 0px;
+	}
+a.jqTransformCheckbox {
+	display:block;/*display: -moz-inline-block;*/
+	width: 18px;
+	height:19px;
+	vertical-align: middle;
+	background: transparent url(img/checkbox.gif) no-repeat center top;
+	}
+
+/* -------------
+ * Checked - Used for both Radio and Checkbox
+ * ------------- */
+a.jqTransformChecked {background-position: center bottom;}
+
+
+/* -------------
+ * Selects
+ * ------------- */
+.jqTransformSelectWrapper {
+	float:left;
+	position:relative;
+	z-index:550;
+	width: 45px;
+	height: 26px;
+	background: none;
+	}
+	.jqTransformSelectWrapper div span {
+		cursor:pointer;
+		overflow:hidden;
+		position:absolute;
+		float:none;
+		display:block;
+		height:16px;
+		font:italic 13px Arial, Arial;
+		line-height:19px;
+		white-space:nowrap;
+		text-align:left;
+		text-indent:9px;
+		padding:5px 0px 5px 0px !important;
+		margin-right:21px;
+		background: url(img/select_left.gif) no-repeat top left;
+		}
+	.jqTransformSelectWrapper a.jqTransformSelectOpen {
+		display:block;
+		position:absolute;
+		right:0px;
+		width:21px;
+		height:26px;
+		background: url(img/select_right.gif) no-repeat center center;
+		}
+.jqTransformSelectWrapper ul {
+	position: absolute;
+	top: 25px;
+	left: 0px;
+	z-index:15;
+	display: none;
+	overflow: auto;
+	overflow-y: auto;
+	width:43px;
+	height:150px;
+	list-style: none;
+	text-align:left;
+	padding:0px 0px 0px 0px !important;
+	margin:0px 0px 0px 0px !important;
+	border: solid 1px #cacaca;
+	border-top:none;
+	border-right:solid 1px #fafafa;
+	background:#fafafa;
+	}
+	.jqTransformSelectWrapper ul li {
+		overflow:hidden;
+		list-style-type:none;
+		margin-left:0px;
+		}
+	.jqTransformSelectWrapper ul a {
+		position:relative;
+		display:block;
+		color:#303030;
+		font:italic 12px Arial, Arial;
+		line-height:16px;
+		text-decoration:none;
+		padding:2px 8px;
+		}
+	.jqTransformSelectWrapper ul a.selected {
+		color:#333;
+		font-weight:bold;
+		}
+	.jqTransformSelectWrapper ul a:hover, .jqTransformSelectWrapper ul a.selected:hover {
+		color:#4a1925 !important;
+		}
+
+/* -------------
+ * Hidden - used to hide the original form elements
+ * ------------- */
+.jqTransformHidden {display: none;}

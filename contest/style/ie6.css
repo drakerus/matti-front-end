@@ -1,0 +1,13 @@
+/*div.page_width {
+	width: expression((document.documentElement.clientWidth < 1000) ? '1000px' : '100%');
+	}
+div.footer_width {
+	width: expression((document.documentElement.clientWidth < 1000) ? '1000px' : '100%');
+	}*/
+
+button.jqTransformButton span {overflow:hidden !important;}
+.jqTransformInputInner {overflow:hidden !important;}
+
+/* page */
+
+img {behavior: url(images/png.htc);}

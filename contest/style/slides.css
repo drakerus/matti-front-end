@@ -1,0 +1,480 @@
+.jcarousel-skin-tango {
+    clear:none !important;
+    list-style-type:none;
+    margin:0px;
+    }
+    .header .jcarousel-skin-tango {
+        overflow:visible;
+        width:954px;
+        height:338px;
+        margin:0px 3px 0px 3px;
+        border:solid 1px #fff;
+        background:#94bf26;
+        }
+    .s_slides .jcarousel-skin-tango {
+        position:relative;
+        left:-10px;
+        width:183px;
+        height:267px;
+        }
+    .news_day_one .jcarousel-skin-tango {
+        width:206px;
+        height:318px;
+        padding:0px !important;
+        margin:0px auto !important;
+        }
+    .news_one_slides .jcarousel-skin-tango {
+        width:634px;
+        height:173px;
+        padding:0px !important;
+        }
+    .news_one_scroll .jcarousel-skin-tango  {
+        width:651px;
+        height:auto;
+        }
+.jcarousel-skin-tango li {
+    float:left;
+    }
+    .header .jcarousel-skin-tango li {
+        overflow:hidden;
+        height:338px;
+        }
+    .s_slides .jcarousel-skin-tango li {
+        height:277px;
+        }
+    .news_day_one .jcarousel-skin-tango li {
+        width:206px;
+        height:318px;
+        padding:0px !important;
+        }
+    .news_one_slides .jcarousel-skin-tango li {
+        width:140px;
+        height:100px;
+        padding:0px !important;
+        }
+    .news_one_scroll .jcarousel-skin-tango li {
+        width:651px;
+        height:auto;
+        padding:0px !important;
+        }
+.jcarousel-skin-tango .jcarousel-container {
+
+    }
+
+.jcarousel-skin-tango .jcarousel-direction-rtl {
+	direction: rtl;
+    }
+
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    width: 245px;
+    padding: 20px 40px;
+    }
+    .header .jcarousel-skin-tango .jcarousel-container-horizontal {
+        width:954px;
+        height:338px;
+        padding:0px;
+        }
+    .s_slides .jcarousel-skin-tango .jcarousel-container-horizontal {
+        width:183px;
+        height:277px;
+        padding:0px;
+        }
+    .news_day_one .jcarousel-skin-tango .jcarousel-container-horizontal {
+        width:206px;
+        height:318px;
+        padding:0px !important;
+        }
+    .news_one_slides .jcarousel-skin-tango .jcarousel-container-horizontal {
+        width:560px;
+        height:225px;
+        padding:0px 37px !important;
+        }
+    .news_one_scroll .jcarousel-skin-tango .jcarousel-container-horizontal {
+        width:651px;
+        height:auto;
+        padding:0px !important;
+        }
+.jcarousel-skin-tango .jcarousel-container-vertical {
+    width: 75px;
+    height: 245px;
+    padding: 40px 20px;
+    }
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width:  245px;
+    height: 75px;
+    }
+    .header .jcarousel-skin-tango .jcarousel-clip-horizontal {
+        width:954px;
+        height:338px;
+        }
+    .s_slides .jcarousel-skin-tango .jcarousel-clip-horizontal {
+        width:183px;
+        height:277px;
+        padding:0px;
+        }
+    .news_day_one .jcarousel-skin-tango .jcarousel-clip-horizontal {
+        width:206px;
+        height:318px;
+        }
+    .news_one_slides .jcarousel-skin-tango .jcarousel-clip-horizontal {
+        width:560px;
+        height:225px;
+        padding:0px;
+        }
+    .news_one_scroll .jcarousel-skin-tango .jcarousel-clip-horizontal {
+        width:651px;
+        height:auto;
+        padding:0px;
+        }
+.jcarousel-skin-tango .jcarousel-clip-vertical {
+    width:  75px;
+    height: 245px;
+    }
+
+.jcarousel-skin-tango .jcarousel-item {
+    width: 75px;
+    height: 75px;
+    }
+    .header .jcarousel-skin-tango .jcarousel-item {
+        width:954px;
+        height:338px;
+        }
+    .header .jcarousel-skin-tango .jcarousel-item img {
+        min-width:954px;
+        min-height:338px;
+        }
+    .s_slides .jcarousel-skin-tango .jcarousel-item {
+        width:183px;
+        height:277px;
+        }
+    .news_day_one .jcarousel-skin-tango .jcarousel-item {
+        width:206px;
+        height:318px;
+        }
+    .news_one_slides .jcarousel-skin-tango .jcarousel-item {
+        width:140px;
+        height:225px;
+        text-align:center;
+        }
+    .news_one_scroll .jcarousel-skin-tango .jcarousel-item {
+        width:651px;
+        height:auto;
+        text-align:left;
+        padding-right:20px;
+        }
+
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+	margin-left: 0;
+    margin-right: 0px;
+    }
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-left: 0px;
+    margin-right: 0;
+    }
+.jcarousel-skin-tango .jcarousel-item-vertical {
+    margin-bottom: 10px;
+    }
+
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    color: #000;
+    }
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: 43px;
+    right: 5px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(next-hor.png) no-repeat 0 0;
+    }
+    .header .jcarousel-skin-tango .jcarousel-next-horizontal {
+        top:148px;
+        right:-31px;
+        width:60px;
+        height:57px;
+        background: transparent url(../images/slides_nav1.png) no-repeat right bottom;
+        }
+    .s_slides .jcarousel-skin-tango .jcarousel-next-horizontal {
+        top:95px;
+        right:-27px;
+        width:25px;
+        height:35px;
+        background: transparent url(../images/slides_nav2.png) no-repeat right top;
+        }
+    .news_day_one .jcarousel-skin-tango .jcarousel-next-horizontal {
+        top:110px;
+        right:-30px;
+        width:43px;
+        height:44px;
+        background: transparent url(../images/slides_nav3.png) no-repeat right top;
+        }
+    .news_one_slides .jcarousel-skin-tango .jcarousel-next-horizontal {
+        top:82px;
+        right:0px;
+        width:22px;
+        height:21px;
+        background: transparent url(../images/slides_nav4.png) no-repeat right top;
+        }
+    .news_one_scroll .jcarousel-skin-tango .jcarousel-next-horizontal {
+        top:100%;
+        right:0px;
+        width:7px;
+        height:19px;
+        background: transparent url(../images/slides_nav5.png) no-repeat right top;
+        }
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 5px;
+    right: auto;
+    background-image: url(prev-hor.png);
+    }
+    .header .jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal {
+        left:-29px;
+        }
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+    background-position: -32px 0;
+    }
+.jcarousel-skin-tango .jcarousel-next-horizontal:active {
+    background-position: -64px 0;
+    }
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: -96px 0;
+    }
+    .header .jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+        background-position:right top;
+        }
+    .header .jcarousel-skin-tango .jcarousel-next-horizontal:active {
+        background-position:right top;
+        }
+    .header .jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+    .header .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+    .header .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+        background-position:right bottom;
+        }
+    .s_slides .jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+        background-position:right bottom;
+        }
+    .s_slides .jcarousel-skin-tango .jcarousel-next-horizontal:active {
+        background-position:right bottom;
+        }
+    .s_slides .jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+    .s_slides .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+    .s_slides .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+        background-position:right bottom;
+        }
+    .news_day_one .jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+        background-position:right bottom;
+        }
+    .news_day_one .jcarousel-skin-tango .jcarousel-next-horizontal:active {
+        background-position:right bottom;
+        }
+    .news_day_one .jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+    .news_day_one .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+    .news_day_one .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+        background-position:right bottom;
+        }
+    .news_one_slides .jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+        background-position:right bottom;
+        }
+    .news_one_slides .jcarousel-skin-tango .jcarousel-next-horizontal:active {
+        background-position:right bottom;
+        }
+    .news_one_slides .jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+    .news_one_slides .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+    .news_one_slides .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+        background-position:right bottom;
+        }
+    .news_one_scroll .jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+        background-position:right bottom;
+        }
+    .news_one_scroll .jcarousel-skin-tango .jcarousel-next-horizontal:active {
+        background-position:right bottom;
+        }
+    .news_one_scroll .jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+    .news_one_scroll .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+    .news_one_scroll .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+        background-position:right bottom;
+        }
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 43px;
+    left: 5px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(prev-hor.png) no-repeat 0 0;
+    }
+    .header .jcarousel-skin-tango .jcarousel-prev-horizontal {
+        top:148px;
+        left:-31px;
+        width:60px;
+        height:57px;
+        background: transparent url(../images/slides_nav1.png) no-repeat left bottom;
+        }
+    .s_slides .jcarousel-skin-tango .jcarousel-prev-horizontal {
+        top:95px;
+        left:-27px;
+        width:25px;
+        height:35px;
+        background: transparent url(../images/slides_nav2.png) no-repeat left top;
+        }
+    .news_day_one .jcarousel-skin-tango .jcarousel-prev-horizontal {
+        top:110px;
+        left:-30px;
+        width:43px;
+        height:44px;
+        background: transparent url(../images/slides_nav3.png) no-repeat left top;
+        }
+    .news_one_slides .jcarousel-skin-tango .jcarousel-prev-horizontal {
+        top:82px;
+        left:0px;
+        width:22px;
+        height:21px;
+        background: transparent url(../images/slides_nav4.png) no-repeat left top;
+        }
+    .news_one_scroll .jcarousel-skin-tango .jcarousel-prev-horizontal {
+        top:100%;
+        left:auto;
+        right:20px;
+        width:7px;
+        height:19px;
+        background: transparent url(../images/slides_nav5.png) no-repeat left top;
+        }
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    left: auto;
+    right: 5px;
+    background-image: url(next-hor.png);
+    }
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+    background-position: -32px 0;
+    }
+.jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+    background-position: -64px 0;
+    }
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: -96px 0;
+    }
+    .header .jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+        background-position:left top;
+        }
+    .header .jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+        background-position:left top;
+        }
+    .header .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+    .header .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+    .header .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+        cursor: default;
+        background-position:left top;
+        }
+    .s_slides .jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+        background-position:left bottom;
+        }
+    .s_slides .jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+        background-position:left bottom;
+        }
+    .s_slides .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+    .s_slides .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+    .s_slides .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+        cursor: default;
+        background-position:left top;
+        }
+    .news_day_one .jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+        background-position:left bottom;
+        }
+    .news_day_one .jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+        background-position:left bottom;
+        }
+    .news_day_one .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+    .news_day_one .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+    .news_day_one .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+        cursor: default;
+        background-position:left top;
+        }
+    .news_one_slides .jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+        background-position:left bottom;
+        }
+    .news_one_slides .jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+        background-position:left bottom;
+        }
+    .news_one_slides .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+    .news_one_slides .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+    .news_one_slides .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+        cursor: default;
+        background-position:left top;
+        }
+    .news_one_scroll .jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+        background-position:left bottom;
+        }
+    .news_one_scroll .jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+        background-position:left bottom;
+        }
+    .news_one_scroll .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+    .news_one_scroll .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+    .news_one_scroll .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+        cursor: default;
+        background-position:left top;
+        }
+
+/**
+ *  Vertical Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-vertical {
+    position: absolute;
+    bottom: 5px;
+    left: 43px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(next-ver.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-next-vertical:hover {
+    background-position: 0 -32px;
+}
+
+.jcarousel-skin-tango .jcarousel-next-vertical:active {
+    background-position: 0 -64px;
+}
+
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical,
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-vertical {
+    position: absolute;
+    top: 5px;
+    left: 43px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(prev-ver.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-vertical:hover {
+    background-position: 0 -32px;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-vertical:active {
+    background-position: 0 -64px;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical,
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}
